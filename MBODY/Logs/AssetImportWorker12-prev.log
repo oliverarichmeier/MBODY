@@ -1,0 +1,609 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.59f1 (630718f645a5) revision 6489880'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16146 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.59f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/Workspace/MBODY/MBODY
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+62277
+Successfully changed project path to: C:/Workspace/MBODY/MBODY
+C:/Workspace/MBODY/MBODY
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15736]  Target information:
+
+Player connection [15736]  * "[IP] 192.168.0.25 [Port] 0 [Flags] 2 [Guid] 3562632366 [EditorId] 3562632366 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DGEBKUE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15736] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15736] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 30.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.59f1 (630718f645a5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Workspace/MBODY/MBODY/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Vendor:   NVIDIA
+    VRAM:     8020 MB
+    Driver:   32.0.15.7640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019023 seconds.
+- Loaded All Assemblies, in  0.792 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.499 seconds
+Domain Reload Profiling: 1287ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (297ms)
+				TypeCache.ScanAssembly (265ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (500ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.390 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.957 seconds
+Domain Reload Profiling: 2339ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (906ms)
+		LoadAssemblies (678ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (396ms)
+			TypeCache.Refresh (339ms)
+				TypeCache.ScanAssembly (313ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (958ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (743ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (500ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 8.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4885 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (347.2 KB). Loaded Objects now: 5348.
+Memory consumption went from 196.5 MB to 196.2 MB.
+Total: 8.334700 ms (FindLiveObjects: 0.937300 ms CreateObjectMapping: 1.581400 ms MarkObjects: 5.337400 ms  DeleteObjects: 0.476400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91477.972022 seconds.
+  path: Assets/Extreme Sci-Fi LITE/FBX/Materials/Utility_Map_1.mat
+  artifactKey: Guid(03365bfd384e91f45a5f70cdca913cd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Extreme Sci-Fi LITE/FBX/Materials/Utility_Map_1.mat using Guid(03365bfd384e91f45a5f70cdca913cd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a2dfd5188ef0148094769941ac5131b') in 0.674298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Extreme Sci-Fi LITE/FBX/Materials/Glass_2.mat
+  artifactKey: Guid(e9ec2e4e0d02c044db95383453cc488c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Extreme Sci-Fi LITE/FBX/Materials/Glass_2.mat using Guid(e9ec2e4e0d02c044db95383453cc488c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd08d0dcd52d31fccfd3147574ca57681') in 0.034345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.292358 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Textures/Glass_2.png
+  artifactKey: Guid(b928c0756d1c1444f930124869f286f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Textures/Glass_2.png using Guid(b928c0756d1c1444f930124869f286f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55ddcaaa580c36885a13e9da32ceffe6') in 0.072911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1.png
+  artifactKey: Guid(a823a0dd86d2f5243b42041617132ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1.png using Guid(a823a0dd86d2f5243b42041617132ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4517e2161733ad13efed25af5bd96031') in 0.021693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_2.2.mat
+  artifactKey: Guid(f2b8d2ef9b468bf44b4a5e1144f1faef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_2.2.mat using Guid(f2b8d2ef9b468bf44b4a5e1144f1faef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d30cb188d361d078b33fdb5f545e44f') in 1.879907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 39.130707 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ddc33d86dc11f0a836ecdbb831f168a8') in 0.004037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 22.503980 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1B.prefab
+  artifactKey: Guid(a6fc093a0074d544dbffabf79e98ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1B.prefab using Guid(a6fc093a0074d544dbffabf79e98ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a6eaa25eb292cd7eec424cb658307506') in 0.073510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Large.prefab
+  artifactKey: Guid(caa7f143fa1fae64cad789ce35ccc0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Large.prefab using Guid(caa7f143fa1fae64cad789ce35ccc0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '53b9304308a7b4f31a330889d2ef83e8') in 0.025125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B.prefab
+  artifactKey: Guid(3742e360ae9c5124e96db4351eb02796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B.prefab using Guid(3742e360ae9c5124e96db4351eb02796) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '20b26587a670b8ba7a61e344975ec3ef') in 0.027419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide)_Window.prefab
+  artifactKey: Guid(735aa2c3e6e189d428ab152c62770323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide)_Window.prefab using Guid(735aa2c3e6e189d428ab152c62770323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea085e03aef227e8e21ec4be2981b024') in 1.108579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2C.prefab
+  artifactKey: Guid(1f84ff43bff8bc449892a79fb728fdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2C.prefab using Guid(1f84ff43bff8bc449892a79fb728fdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e9be0525cde21603c222f2a99b9f798') in 0.026977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Window.prefab
+  artifactKey: Guid(9fcadab81d1f10441a18fc58fa9ea702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Window.prefab using Guid(9fcadab81d1f10441a18fc58fa9ea702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b79c0c4ad0a737bb0442b0ba7636f9b9') in 0.030130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Door_1L.prefab
+  artifactKey: Guid(bdaa8963568d45f42a54a47e532cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Door_1L.prefab using Guid(bdaa8963568d45f42a54a47e532cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '441be48dbaf0f01b0be37e9de4ffb1ee') in 0.031913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide).prefab
+  artifactKey: Guid(0f1c409fdd311ce4ca7bfe14949b4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide).prefab using Guid(0f1c409fdd311ce4ca7bfe14949b4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f61257a81522d0aafdd3c2f00051a07') in 0.029583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1B.prefab
+  artifactKey: Guid(3fa8d9a295d78c747b79a20cb0c1c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1B.prefab using Guid(3fa8d9a295d78c747b79a20cb0c1c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5493084ef091b86765c21358c1c60d4a') in 0.028411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1C_Closed.prefab
+  artifactKey: Guid(d4abc7df6daac89498360bb42c3d3652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1C_Closed.prefab using Guid(d4abc7df6daac89498360bb42c3d3652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3e0fdc9ec06290d6e129959a5df8a5b5') in 0.024177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1F.prefab
+  artifactKey: Guid(634e73be1d83b2c46874b0d384032962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1F.prefab using Guid(634e73be1d83b2c46874b0d384032962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '58aa52e02c701137d6a943a29d49bebc') in 0.028555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Doors_Closed.prefab
+  artifactKey: Guid(4e951ba73b8de694dac9be6477191d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Doors_Closed.prefab using Guid(4e951ba73b8de694dac9be6477191d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc50c3d904c1b098d77f967ae02ab6b8') in 0.032021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide)_Large.prefab
+  artifactKey: Guid(db40a598792ed0f47b75562525b4e6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide)_Large.prefab using Guid(db40a598792ed0f47b75562525b4e6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '38ce57654d98ee2811223c230f4d2b0c') in 0.028750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2C(Wide).prefab
+  artifactKey: Guid(12c679a3b4a12f043810990c24cb7abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2C(Wide).prefab using Guid(12c679a3b4a12f043810990c24cb7abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '520335413019320dcded6bf3e1fc9264') in 0.026476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide)_Large.prefab
+  artifactKey: Guid(01fe0fdf05640c945a5b4cbd667613b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide)_Large.prefab using Guid(01fe0fdf05640c945a5b4cbd667613b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fe5b0dbd38271e366f2e9948e635c810') in 0.029810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1D_Closed.prefab
+  artifactKey: Guid(60f5c85eb76f96246aad42e84f56dbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1D_Closed.prefab using Guid(60f5c85eb76f96246aad42e84f56dbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f59acd2a6e0587375c28fd982cdf8dd') in 0.029157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A_Large.prefab
+  artifactKey: Guid(c46bba278e87c6d4eae2f20813664ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A_Large.prefab using Guid(c46bba278e87c6d4eae2f20813664ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f8a56fa251df5846271f390798995c90') in 0.029656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A.prefab
+  artifactKey: Guid(188178c0e66712c449162ca71f321740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A.prefab using Guid(188178c0e66712c449162ca71f321740) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '532bb839a9560bb890242835fbfa9fd7') in 0.027012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1E.prefab
+  artifactKey: Guid(7f58467725f3f964dba78b5187146a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1E.prefab using Guid(7f58467725f3f964dba78b5187146a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55614d86155617c795c41ab50689a11f') in 0.023353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 274.522638 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1A.prefab
+  artifactKey: Guid(c9f5b0379c70a944b98839e9c60680af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1A.prefab using Guid(c9f5b0379c70a944b98839e9c60680af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8d54384614fa0b8ed849749bc6634ab') in 0.036062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Large.prefab
+  artifactKey: Guid(caa7f143fa1fae64cad789ce35ccc0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Large.prefab using Guid(caa7f143fa1fae64cad789ce35ccc0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a6412a7f85dc4bedc60b72d9da98881c') in 0.031659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide)_Window.prefab
+  artifactKey: Guid(735aa2c3e6e189d428ab152c62770323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide)_Window.prefab using Guid(735aa2c3e6e189d428ab152c62770323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '780f96b782730e98779b4e0942998c50') in 0.029094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Window.prefab
+  artifactKey: Guid(9fcadab81d1f10441a18fc58fa9ea702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Window.prefab using Guid(9fcadab81d1f10441a18fc58fa9ea702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '64a198a4ce8839c1dcddd598cdf79450') in 0.026845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide).prefab
+  artifactKey: Guid(0f1c409fdd311ce4ca7bfe14949b4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide).prefab using Guid(0f1c409fdd311ce4ca7bfe14949b4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ce4f790c7cdb1d5039316af3b060971') in 0.023375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1C_Closed.prefab
+  artifactKey: Guid(d4abc7df6daac89498360bb42c3d3652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1C_Closed.prefab using Guid(d4abc7df6daac89498360bb42c3d3652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '927f940f73bb961b7b053742e12af53f') in 0.026857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide).prefab
+  artifactKey: Guid(306265d50b9c2d141b3a5ffd81f29e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide).prefab using Guid(306265d50b9c2d141b3a5ffd81f29e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f7b33ac3fb601693fad549c0d10cc3b') in 0.024463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1E_Doors.prefab
+  artifactKey: Guid(00379f7646f0ca84692c5130a26a1177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1E_Doors.prefab using Guid(00379f7646f0ca84692c5130a26a1177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c76fc4c5b86391f2a6ca17a89965f48d') in 0.024136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1G.prefab
+  artifactKey: Guid(cd27c7efaba5ed7488d4bdb7b6b9ec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1G.prefab using Guid(cd27c7efaba5ed7488d4bdb7b6b9ec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc9eaca999ba091515fb2e47180c8ad9') in 0.024066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1I.prefab
+  artifactKey: Guid(439c21de4aff5424da748f7c94ec0dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1I.prefab using Guid(439c21de4aff5424da748f7c94ec0dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7220d26f003bfead5931b9a2407ccc9d') in 0.016158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide)_Large.prefab
+  artifactKey: Guid(01fe0fdf05640c945a5b4cbd667613b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide)_Large.prefab using Guid(01fe0fdf05640c945a5b4cbd667613b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '924c0eb66359fcd6355ab145bfadca3f') in 0.023200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Door_1R.prefab
+  artifactKey: Guid(10094730febd89d4c969a7f770991cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Door_1R.prefab using Guid(10094730febd89d4c969a7f770991cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8999d3475abf7a77dacd59549a18993a') in 0.023339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A_Large.prefab
+  artifactKey: Guid(c46bba278e87c6d4eae2f20813664ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A_Large.prefab using Guid(c46bba278e87c6d4eae2f20813664ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '68c20f06e14edfed0c5fdc9d56be0126') in 0.026696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A.prefab
+  artifactKey: Guid(188178c0e66712c449162ca71f321740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A.prefab using Guid(188178c0e66712c449162ca71f321740) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4e2ccd6d711ef0053880d4411e63a7a8') in 0.025700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1E.prefab
+  artifactKey: Guid(7f58467725f3f964dba78b5187146a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1E.prefab using Guid(7f58467725f3f964dba78b5187146a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '808fab4ae0fab2f11bd524339b347797') in 0.023001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.378997 seconds.
+  path: Assets/Extreme Sci-Fi LITE/FBX/Materials/Glass_2.mat
+  artifactKey: Guid(e9ec2e4e0d02c044db95383453cc488c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Extreme Sci-Fi LITE/FBX/Materials/Glass_2.mat using Guid(e9ec2e4e0d02c044db95383453cc488c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '728915a9d0e33fa8033f3d4359116b12') in 0.016908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1a9e0968a28b11f82cf723f0fd1bd1da') in 0.013077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Extreme Sci-Fi LITE/FBX/Materials/Emissive_Light_1.mat
+  artifactKey: Guid(909203ac3efaaf348a9cb26bbd364e73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Extreme Sci-Fi LITE/FBX/Materials/Emissive_Light_1.mat using Guid(909203ac3efaaf348a9cb26bbd364e73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0c3080722e89800240988695bf864073') in 0.016018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
